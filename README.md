@@ -1,6 +1,7 @@
 ## 简介 | Overview
 
-**sPselect** 是一个用于空间计量模型（Spatial Econometric Model）的控制变量组合自动筛选工具。  
+**sPselect** 是一个用于空间计量模型（Spatial Econometric Model）的控制变量组合自动筛选工具。
+
 基于 `tuples`、`foreach` 循环与 `wordcount` 等基础命令，穷举所有控制变量组合，  
 自动识别**同时满足以下统计显著性条件**的变量组合：
 
@@ -40,7 +41,7 @@
 
 ## 使用方法 | Usage
 
-下载程序按照代码注释操作即可
+代码注释详尽，可配合 AI 工具辅助理解。如仍有疑问，欢迎通过联系方式与作者沟通。
 
 基于同一框架，作者还开发了两个配套工具：用于莫兰指数显著性检验的 sMIselect 与用于空间杜宾中介效应检验的 sMselect，目前作为补充程序按需提供。感兴趣的研究者欢迎通过 Email 或 Issues 联系作者获取。
 
